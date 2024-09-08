@@ -8,9 +8,9 @@
 >> 4. Monitor and scale the application using the AWS Management Console.
 
 > [!IMPORTANT]
-> For best practice of py app hosting on AWS , i follow some steps
-> 1. hosting on ec2
-> 2. rehosting through AWS Elastic Beanstlak 
+> For best practice of python web app hosting on AWS , i followed some steps
+> 1. Hosting through AWS ec2
+> 2. Re-Hosing through AWS Elastic Beanstlak 
 
 ## Table of Contents
 
@@ -31,4 +31,30 @@ This guide will walk you  through the process of deploying a python Flask applic
 
 - Goto Search bar and write `ec2` and Select the EC2 option 
     ![Search Bar Screenshots](/images/searchbar.webp)
+
+- Click on `Launch instance` Button 
+![lunch instance Screenshots](/images/lunch_instance.webp)
+
+
+- Give name of the Instance
+![Instance Name giving Screenshots](/images/instance_Name.webp)
+
+
+- On Application and OS Images -> Select `Amazon Linux `
+
+- On Instance type -> select t2.micro (free tier eligible (for practice purpose))
+
+- Select `Key pair` for connecting through locally  and for security Purpose'
+> [!NOTE]
+> if you Don't have Key Pair then must create new [Key Pair](#key-pair)
+
+- On Network setting, Check some Steps
+1. Auto-assign public Ip --> Enable ? if not then click on `edit` of Network setting and Enabled it.
+2. Allow SSH traffic from Anywhere 
+3. Allow HTTP and HTTPS traffic from the internet
+
+![Network Security Screenshots](/images/network_security.webp)
+
+
+- Click on `Launch instance` -> Bottom Right  
 
