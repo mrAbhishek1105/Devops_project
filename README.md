@@ -37,7 +37,7 @@ This guide will walk you  through the process of deploying a python Flask applic
 
 
 - Give name of the Instance
-![Instance Name giving Screenshots](/images/instance_Name.webp)
+![Instance Name giving Screenshots](/images/instance-Name.webp)
 
 
 - On Application and OS Images -> Select `Amazon Linux `
